@@ -6,7 +6,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:acacia_slab"
+                        "items": [
+                            "minecraft:acacia_slab"
+                        ]
                     }
                 ]
             }

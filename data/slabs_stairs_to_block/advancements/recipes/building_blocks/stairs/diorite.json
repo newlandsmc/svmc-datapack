@@ -6,7 +6,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:diorite_stairs"
+                        "items": [
+                            "minecraft:diorite_stairs"
+                        ]
                     }
                 ]
             }

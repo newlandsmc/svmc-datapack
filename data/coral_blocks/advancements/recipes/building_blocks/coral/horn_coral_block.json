@@ -6,7 +6,9 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:horn_coral"
+						"items": [
+							"minecraft:horn_coral"
+						]
 					}
 				]
 			}

@@ -6,7 +6,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:dark_prismarine_slab"
+                        "items": [
+                            "minecraft:dark_prismarine_slab"
+                        ]
                     }
                 ]
             }

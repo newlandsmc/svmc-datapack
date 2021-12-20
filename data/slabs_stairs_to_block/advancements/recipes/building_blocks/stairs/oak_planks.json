@@ -6,7 +6,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:oak_stairs"
+                        "items": [
+                            "minecraft:oak_stairs"
+                        ]
                     }
                 ]
             }

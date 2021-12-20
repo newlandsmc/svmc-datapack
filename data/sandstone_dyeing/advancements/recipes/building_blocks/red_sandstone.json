@@ -6,7 +6,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:sandstone"
+                        "items": [
+                            "minecraft:sandstone"
+                        ]
                     }
                 ]
             }
@@ -16,7 +18,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:red_dye"
+                        "items": [
+                            "minecraft:red_dye"
+                        ]
                     }
                 ]
             }

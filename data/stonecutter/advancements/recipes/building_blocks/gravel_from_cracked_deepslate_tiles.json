@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cracked_deepslate_tiles"
+            "items": [
+              "minecraft:cracked_deepslate_tiles"
+            ]
           }
         ]
       }

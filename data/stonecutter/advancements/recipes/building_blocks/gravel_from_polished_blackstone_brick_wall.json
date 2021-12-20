@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:polished_blackstone_brick_wall"
+            "items": [
+              "minecraft:polished_blackstone_brick_wall"
+            ]
           }
         ]
       }

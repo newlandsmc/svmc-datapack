@@ -6,7 +6,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:string"
+                        "items": [
+                            "minecraft:string"
+                        ]
                     }
                 ]
             }
@@ -16,7 +18,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:stick"
+                        "items": [
+                            "minecraft:stick"
+                        ]
                     }
                 ]
             }
@@ -26,7 +30,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:dropper"
+                        "items": [
+                            "minecraft:dropper"
+                        ]
                     }
                 ]
             }

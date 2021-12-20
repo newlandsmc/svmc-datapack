@@ -6,7 +6,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:jungle_stairs"
+                        "items": [
+                            "minecraft:jungle_stairs"
+                        ]
                     }
                 ]
             }

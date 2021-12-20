@@ -6,7 +6,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:polished_deepslate_stairs"
+                        "items": [
+                            "minecraft:polished_deepslate_stairs"
+                        ]
                     }
                 ]
             }

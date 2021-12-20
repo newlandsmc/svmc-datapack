@@ -6,7 +6,9 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:fire_coral"
+						"items": [
+							"minecraft:fire_coral"
+						]
 					}
 				]
 			}

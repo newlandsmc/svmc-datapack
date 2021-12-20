@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diorite_wall"
+            "items": [
+              "minecraft:diorite_wall"
+            ]
           }
         ]
       }

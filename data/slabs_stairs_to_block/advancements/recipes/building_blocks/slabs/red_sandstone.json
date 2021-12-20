@@ -6,7 +6,9 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:red_sandstone_slab"
+                        "items": [
+                            "minecraft:red_sandstone_slab"
+                        ]
                     }
                 ]
             }

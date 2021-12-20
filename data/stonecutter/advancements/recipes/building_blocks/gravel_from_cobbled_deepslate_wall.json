@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cobbled_deepslate_wall"
+            "items": [
+              "minecraft:cobbled_deepslate_wall"
+            ]
           }
         ]
       }

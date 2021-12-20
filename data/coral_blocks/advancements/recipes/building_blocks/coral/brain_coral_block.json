@@ -6,7 +6,9 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:brain_coral"
+						"items": [
+							"minecraft:brain_coral"
+						]
 					}
 				]
 			}
@@ -16,7 +18,9 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:brain_coral_fan"
+						"items": [
+							"minecraft:brain_coral_fan"
+						]
 					}
 				]
 			}
