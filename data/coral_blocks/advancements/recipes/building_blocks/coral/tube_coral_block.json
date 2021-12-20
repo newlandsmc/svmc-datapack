@@ -18,7 +18,9 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:tube_coral_fan"
+						"items": [
+							"minecraft:tube_coral_fan"
+						]
 					}
 				]
 			}

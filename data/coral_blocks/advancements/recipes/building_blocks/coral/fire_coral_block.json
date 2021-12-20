@@ -18,7 +18,9 @@
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:fire_coral_fan"
+						"items": [
+							"minecraft:fire_coral_fan"
+						]
 					}
 				]
 			}
