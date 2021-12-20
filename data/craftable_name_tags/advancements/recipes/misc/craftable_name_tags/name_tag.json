@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_string": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:string"
+                    }
+                ]
+            }
+        },
+        "has_paper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:paper"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_string",
+            "has_paper"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "craftable_name_tags:name_tag"
+        ]
+    }
+}
