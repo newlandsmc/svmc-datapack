@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 2.0,
+      "rolls": 3.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -17,12 +17,27 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 20,
           "name": "minecraft:name_tag"
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 5,
+          "name": "minecraft:skeleton_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:zombie_head"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:creeper_head"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
@@ -40,8 +55,8 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 4.0,
-        "max": 6.0
+        "min": 6.0,
+        "max": 9.0
       },
       "bonus_rolls": 0.0,
       "entries": [
@@ -76,6 +91,60 @@
             }
           ],
           "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:night_vision"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:fire_resistance"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:invisibility"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 8.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:copper_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "small_amethyst_bud"
         },
         {
           "type": "minecraft:item",
@@ -127,6 +196,23 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 8.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:amethyst_shard"
+        },
+        
+        {
+          "type": "minecraft:item",
           "weight": 10,
           "functions": [
             {
@@ -143,7 +229,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -159,7 +245,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -175,7 +261,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -191,7 +277,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -207,7 +293,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",

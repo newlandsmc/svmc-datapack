@@ -26,6 +26,22 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 7.0,
+                "max": 16.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 5,
           "functions": [
             {
@@ -57,7 +73,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -73,8 +89,15 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_hoe"
         },
         {
           "type": "minecraft:item",
@@ -109,7 +132,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:iron_shovel"
         }
       ]

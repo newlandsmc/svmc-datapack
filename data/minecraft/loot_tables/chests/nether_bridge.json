@@ -4,8 +4,8 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 4.0,
-        "max": 6.0
+        "min": 6.0,
+        "max": 8.0
       },
       "bonus_rolls": 0.0,
       "entries": [
@@ -49,8 +49,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 8.0
+                "min": 5.0,
+                "max": 10.0
               },
               "add": false
             }
@@ -59,22 +59,22 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
           "name": "minecraft:golden_sword"
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
           "name": "minecraft:golden_chestplate"
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
           "name": "minecraft:flint_and_steel"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -91,21 +91,69 @@
         {
           "type": "minecraft:item",
           "weight": 7,
-          "name": "minecraft:saddle"
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8.0,
+                "max": 15.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:quartz"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:golden_horse_armor"
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 7.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:glowstone"
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:iron_horse_armor"
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 7.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:magma_cream"
         },
         {
           "type": "minecraft:item",
           "weight": 2,
+          "name": "minecraft:saddle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
           "name": "minecraft:diamond_horse_armor"
         },
         {

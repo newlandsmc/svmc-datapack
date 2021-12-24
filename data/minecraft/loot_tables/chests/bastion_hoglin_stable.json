@@ -40,23 +40,11 @@
             }
           ],
           "name": "minecraft:netherite_scrap"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2.0,
-              "add": false
-            }
-          ],
-          "name": "minecraft:ancient_debris"
         }
       ]
     },
     {
-      "rolls": 3.0,
+      "rolls": 6.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -104,6 +92,30 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.15,
+                "max": 0.95
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1.0,
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:diamond_axe"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 8,
           "functions": [
             {
@@ -140,7 +152,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -149,6 +161,28 @@
             }
           ],
           "name": "minecraft:saddle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:fire_resistance"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:regeneration"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -168,7 +202,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -181,6 +215,11 @@
             }
           ],
           "name": "minecraft:golden_carrot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "wither_skeleton_skull"
         },
         {
           "type": "minecraft:item",
@@ -199,8 +238,8 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 3.0,
-        "max": 4.0
+        "min": 4.0,
+        "max": 5.0
       },
       "bonus_rolls": 0.0,
       "entries": [
@@ -240,8 +279,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 9.0,
-                "max": 16.0
+                "min": 5.0,
+                "max": 9.0
               },
               "add": false
             }
@@ -262,6 +301,21 @@
             }
           ],
           "name": "minecraft:gilded_blackstone"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 9.0,
+                "max": 19.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:quartz"
         },
         {
           "type": "minecraft:item",
@@ -300,8 +354,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 8.0
+                "min": 5.0,
+                "max": 12.0
               },
               "add": false
             }
@@ -360,8 +414,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 5.0
+                "min": 6.0,
+                "max": 11.0
               },
               "add": false
             }
@@ -375,7 +429,22 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
+                "min": 9.0,
+                "max": 19.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:glowstone_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 11.0,
                 "max": 5.0
               },
               "add": false

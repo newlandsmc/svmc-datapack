@@ -56,7 +56,7 @@
       ]
     },
     {
-      "rolls": 3.0,
+      "rolls": 7.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -204,6 +204,50 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:fire_resistance"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:invisibility"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:regeneration"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:healing"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 6,
           "name": "minecraft:diamond_sword"
         },
@@ -216,6 +260,11 @@
           "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:diamond_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:wither_skeleton_skull"
         },
         {
           "type": "minecraft:item",
@@ -235,8 +284,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 6.0
+                "min": 5.0,
+                "max": 9.0
               },
               "add": false
             }

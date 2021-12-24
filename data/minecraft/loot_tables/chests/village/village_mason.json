@@ -4,8 +4,8 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 3.0,
-        "max": 5.0
+        "min": 5.0,
+        "max": 8.0
       },
       "bonus_rolls": 0.0,
       "entries": [
@@ -14,6 +14,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
+              "weight": 5,
               "count": {
                 "type": "minecraft:uniform",
                 "min": 6.0,
@@ -37,6 +38,21 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:stone_bricks"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:quartz_bricks"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:polished_basalt"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:chiseled_quartz_block"
         },
         {
           "type": "minecraft:item",
@@ -64,14 +80,30 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 7.0,
+                "max": 16.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 2.0
+                "min": 2.0,
+                "max": 3.0
               },
               "add": false
             }

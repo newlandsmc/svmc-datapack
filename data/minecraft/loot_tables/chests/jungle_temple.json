@@ -4,14 +4,14 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 6.0,
+        "min": 7.0,
         "max": 9.0
       },
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -59,14 +59,30 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 7.0,
+                "max": 16.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
+                "min": 5.0,
+                "max": 15.0
               },
               "add": false
             }
@@ -91,7 +107,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -107,7 +123,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 16,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -123,8 +139,39 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 7.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:slime_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
           "name": "minecraft:saddle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:zombie_head"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:creeper_head"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:skeleton_skull"
         },
         {
           "type": "minecraft:item",
@@ -140,7 +187,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",

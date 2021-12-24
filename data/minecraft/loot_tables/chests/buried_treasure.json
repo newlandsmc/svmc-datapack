@@ -14,8 +14,8 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 7.0,
-        "max": 9.0
+        "min": 4.0,
+        "max": 7.0
       },
       "bonus_rolls": 0.0,
       "entries": [
@@ -72,8 +72,8 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 2.0,
-        "max": 4.0
+        "min": 5.0,
+        "max": 8.0
       },
       "bonus_rolls": 0.0,
       "entries": [
@@ -140,6 +140,38 @@
             }
           ],
           "name": "minecraft:prismarine_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:nautilus_shell"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 5.0,
+                "max": 15.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:sponge"
         }
       ]
     },
@@ -162,7 +194,7 @@
       ]
     },
     {
-      "rolls": 2.0,
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -200,25 +232,37 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 0.0,
+        "min": 1.0,
         "max": 2.0
       },
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:potion"
-        }
-      ],
-      "functions": [
+          "weight": 5,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:night_vision"
+            }
+          ]
+        },
         {
-          "function": "minecraft:set_potion",
-          "id": "minecraft:water_breathing"
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water_breathing"
+            }
+          ]
         }
       ]
     },
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
