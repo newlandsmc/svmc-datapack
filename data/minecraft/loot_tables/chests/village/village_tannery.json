@@ -11,6 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -71,8 +72,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 7.0,
-                "max": 16.0
+                "min": 4.0,
+                "max": 7.0
               },
               "add": false
             }
