@@ -17,7 +17,6 @@
 
 ## Loot Tables:
 - Loot chests are modified and generally improved
-- Ender dragon drops a dragon egg, an elytra, and four random enchanted netherite tools and armor pieces
 
 ## Composter: _(not done)_
 - _Sticks_

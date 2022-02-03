@@ -67,14 +67,14 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 7.0
+                "min": 2.0,
+                "max": 5.0
               },
               "add": false
             }
