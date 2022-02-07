@@ -116,16 +116,6 @@
               "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:golden_hoe"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
           "name": "minecraft:golden_shovel"
         },
         {
