@@ -22,6 +22,26 @@
       ]
     },
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 14
+        },
+        {
+          "type":"minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add":false
+            }
+          ],
+          "name": "minecraft:elytra"
+        }
+      ]
+    },
+    {
       "rolls": {
         "type": "minecraft:uniform",
         "min": 5.0,
