@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "stonecutter:stripped_crimson_stem"
+    ]
+  },
+  "criteria": {
+    "has_crimson_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_stem"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "stonecutter:stripped_crimson_stem"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crimson_stem",
+      "has_the_recipe"
+    ]
+  ]
+}

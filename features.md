@@ -14,24 +14,8 @@
 - Chainmail can be crafted from chains
 - White wool can make four string
 - String and slime make cobweb
+- Stonecutter can be used to strip logs and wood
+- Stonecutter can craft all stairs
 
 ## Loot Tables:
 - Loot chests are modified and generally improved
-
-## Composter: _(not done)_
-- _Sticks_
-- _Wood and other products_
-- _Wool and products_
-- _Jack o'Lantern_
-- _Bamboo_
-- _Chorus plant/flower/fruit_
-- _String_
-- _Feathers_
-- _Dye_
-- _Stews and soups_
-- _Rotten Flesh_
-- _Fish_
-- _Cake_
-- _Spider Eye_
-- _Poisonous Potato_
-- _Pumpkin Pie_
